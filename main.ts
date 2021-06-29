@@ -14,6 +14,9 @@ startBot({
       if (message.content === "!ping") {
         message.reply("Pong using Discordeno!");
       }
+      if (message.content === "!ping2") {
+        message.reply("Pong2 using Discordeno!");
+      }
     },
   },
 });
