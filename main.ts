@@ -10,7 +10,7 @@ startBot({
     },
     messageCreate(message) {
       // Process the message with your command handler here
-      console.log(message.content);
+      console.log(message);
       if (message.content === "!ping") {
         message.reply("Pong using Discordeno!");
       }
@@ -18,7 +18,7 @@ startBot({
         message.reply("Pong2 using Discordeno!");
       }
       if (message.content === "!ping3") {
-        message.reply("Pong2 using Discordeno!");
+        message.reply("Pong3 using Discordeno!");
       }
     },
   },
