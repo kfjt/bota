@@ -21,5 +21,8 @@ startBot({
         message.reply("Pong3 using Discordeno!");
       }
     },
+    raw(data) {
+      console.log(data);
+    },
   },
 });
