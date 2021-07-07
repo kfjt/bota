@@ -1,6 +1,6 @@
 // main.ts
 /// <reference path="./deploy.d.ts" />
-import { startBot } from "https://deno.land/x/discordeno/mod.ts";
+import { startBot } from "./deps.ts";
 
 startBot({
   token: Deno.env.get("BOT_TOKEN")!,
