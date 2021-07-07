@@ -1,4 +1,5 @@
 // main.ts
+/// <reference path="./deploy.d.ts" />
 import { startBot } from "https://deno.land/x/discordeno/mod.ts";
 
 startBot({
