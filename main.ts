@@ -11,16 +11,16 @@ startBot({
       const channel = cache.channels.get(845991491020521472n)
       console.log(new Date())
       cron('1 0,30 1-6 * * *', () => {
-        channel!.send('25分作業するよー')
+        // channel!.send('25分作業するよー')
       });
       cron('1 25,55 1-6 * * *', () => {
-        channel!.send('5分休むよー')
+        // channel!.send('5分休むよー')
       });
-      cron('2 0 12 * * *', () => {
-        channel!.send('ランチじゃね？')
+      cron('2 0 3 * * *', () => {
+        // channel!.send('ランチじゃね？')
       });
       cron('2 0 7 * * *', () => {
-        channel!.send('１６時じゃね？')
+        // channel!.send('１６時じゃね？')
       });
     },
     messageCreate(message) {
